@@ -1,0 +1,3 @@
+lm_eval --model hf --model_args pretrained="D:\SLM finetune\gemma-3-1b-it_merged",dtype=float16 --tasks gsm8k,arc_challenge,winogrande,boolq,piqa --device cuda --batch_size 1 --output_path results
+
+lm_eval --model hf --model_args pretrained="D:\SLM finetune\filtered_data_training\gemma-3-1b-it_merged",dtype=float16 --tasks gsm8k,arc_challenge,winogrande,boolq,piqa --device cuda --batch_size 1 --output_path results
